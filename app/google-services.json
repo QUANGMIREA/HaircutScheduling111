@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "563611246766",
+    "firebase_url": "https://hair-6d58f-default-rtdb.firebaseio.com",
+    "project_id": "hair-6d58f",
+    "storage_bucket": "hair-6d58f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563611246766:android:e9e249033fbd2496e34d3f",
+        "android_client_info": {
+          "package_name": "com.example.BTNHair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563611246766-emmgu6pnnv2k3v4gen9cge0dncavt3uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdu9ZjrJcQ_00oq0hibIkVY75EVGim2vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563611246766-emmgu6pnnv2k3v4gen9cge0dncavt3uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563611246766:android:857c8141bb4d004ce34d3f",
+        "android_client_info": {
+          "package_name": "com.example.haircut"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563611246766-emmgu6pnnv2k3v4gen9cge0dncavt3uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdu9ZjrJcQ_00oq0hibIkVY75EVGim2vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563611246766-emmgu6pnnv2k3v4gen9cge0dncavt3uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563611246766:android:1b0be22f41ddc1b8e34d3f",
+        "android_client_info": {
+          "package_name": "com.example.haircutscheduling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563611246766-emmgu6pnnv2k3v4gen9cge0dncavt3uo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdu9ZjrJcQ_00oq0hibIkVY75EVGim2vo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563611246766-emmgu6pnnv2k3v4gen9cge0dncavt3uo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
