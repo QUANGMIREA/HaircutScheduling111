@@ -18,7 +18,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
-        android:text="Chọn ngày"
+        android:text="Выберите дату"
         android:textColor="#5CA7B1"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -48,8 +48,7 @@
             android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:background="@drawable/buttoms_design"
-            android:text="
-Định ngày nghỉ"
+            android:text="Устроить выходной"
             android:textSize="18sp" />
 
         <Button
@@ -65,8 +64,7 @@
             android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:background="@drawable/buttoms_design"
-            android:text="
-Hủy ngày nghỉ"
+            android:text="Отменить праздники"
             android:textSize="18sp" />
 
     </LinearLayout>

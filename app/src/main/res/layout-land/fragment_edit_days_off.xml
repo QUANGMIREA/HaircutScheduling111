@@ -35,7 +35,7 @@
             android:layout_marginBottom="20dp"
             android:background="@drawable/buttoms_design"
             android:gravity="center"
-            android:text="Định ngày nghỉ"
+            android:text="Устроить выходной"
             android:textSize="18sp" />
 
         <Button
@@ -48,8 +48,7 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/buttoms_design"
             android:gravity="center"
-            android:text="
-Hủy ngày nghỉ"
+            android:text="Отменить праздники"
             android:textSize="18sp" />
 
     </LinearLayout>
