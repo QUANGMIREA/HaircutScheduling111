@@ -43,7 +43,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
-                    android:text="Haircut style"
+                    android:text="Kiểu cắt tóc"
                     android:textAppearance="?android:attr/textAppearanceLarge" />
 
                 <TextView
@@ -54,7 +54,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_weight="1"
                     android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:text="price/hour" />
+                    android:text="giá / giờ" />
 
             </LinearLayout>
 

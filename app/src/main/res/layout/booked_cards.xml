@@ -35,7 +35,9 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="5dp"
-                    android:text="Style"
+                    android:text="
+Kiểu cắt tóc
+"
                     android:textAppearance="?android:attr/textAppearanceLarge" />
 
                 <LinearLayout
@@ -55,7 +57,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
-                        android:text="Date"
+                        android:text="Ngày"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
                     <TextView
@@ -68,7 +70,7 @@
                         android:layout_marginTop="10dp"
                         android:layout_marginEnd="10dp"
                         android:layout_marginRight="10dp"
-                        android:text="Hour"
+                        android:text="Giờ"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
                     <TextView
@@ -80,7 +82,7 @@
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="10dp"
                         android:layout_marginRight="10dp"
-                        android:text="Price"
+                        android:text="Giá"
                         android:textAppearance="?android:attr/textAppearanceMedium" />
 
                 </LinearLayout>
