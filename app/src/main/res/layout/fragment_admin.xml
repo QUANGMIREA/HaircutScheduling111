@@ -42,7 +42,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
             android:gravity="center"
-            android:text="Quản lý Haircut"
+            android:text="Admin Haircut"
             android:textColor="#5CA7B1"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -76,7 +76,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/buttoms_design"
-                    android:text="Sửa ngày nghỉ"
+                    android:text="Change the day off"
                     android:textSize="18sp"
                     app:backgroundTint="#5CA7B1" />
 
@@ -91,7 +91,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/buttoms_design"
-                    android:text="Sửa giờ mở cửa"
+                    android:text="Change hour open"
                     android:textSize="18sp"
                     app:backgroundTint="#5CA7B1" />
 
@@ -118,7 +118,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/buttoms_design"
-                    android:text="Cập nhật"
+                    android:text="Update"
                     android:textSize="18sp"
                     app:backgroundTint="#5CA7B1" />
 
@@ -133,7 +133,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/buttoms_design"
-                    android:text="Sửa chi tiết liên hệ"
+                    android:text="Change contact"
                     android:textSize="18sp"
                     app:backgroundTint="#5CA7B1" />
             </LinearLayout>
@@ -159,7 +159,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/buttoms_design"
-                    android:text="Lịch hẹn hôm nay"
+                    android:text="Schelude today"
                     android:textSize="20sp"
                     app:backgroundTint="#5CA7B1" />
 

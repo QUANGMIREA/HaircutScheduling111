@@ -15,8 +15,7 @@
         android:layout_gravity="center"
         android:layout_margin="5dp"
         android:gravity="center"
-        android:text="
-Chọn ngày và giờ"
+        android:text="Pick date and time"
         android:textColor="#5CA7B1"
         android:textSize="24sp"
         android:textStyle="bold" />

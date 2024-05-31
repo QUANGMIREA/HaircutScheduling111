@@ -75,7 +75,7 @@ public class EditUpdatesBoardFragment extends Fragment {
     public void addToUpdatesBoard(String update) {
         if (update.isEmpty()) {
             Toast.makeText(mainActivity, "\n" +
-                    "Vui lòng viết thông tin cập nhật của bạn", Toast.LENGTH_SHORT).show();
+                    "Please write your updates", Toast.LENGTH_SHORT).show();
         } else {
             SimpleDateFormat format = new SimpleDateFormat("dd-MM-yy");
             String currentDate = format.format(new Date());
@@ -84,7 +84,7 @@ public class EditUpdatesBoardFragment extends Fragment {
             DatabaseReference myRef = database.getReference("updates");
             myRef.child("updatesList").push().setValue(adminUpdate);
 
-            Toast.makeText(mainActivity, "Cập nhật được thêm vào bảng", Toast.LENGTH_SHORT).show();
+            Toast.makeText(mainActivity, "Updates are added to the table", Toast.LENGTH_SHORT).show();
         }
     }
 }

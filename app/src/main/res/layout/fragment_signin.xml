@@ -51,7 +51,7 @@
                 android:layout_margin="10dp"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Tạo tài khoản"
+                android:text="Create account"
                 android:textColor="#5CA7B1"
                 android:textSize="24sp"
                 android:textStyle="bold" />
@@ -128,7 +128,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:background="@drawable/buttoms_design"
-                android:text="Đăng ký"
+                android:text="Sign in"
                 app:backgroundTint="#5CA7B1"
                 app:iconSize="10sp" />
 

@@ -15,7 +15,7 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:gravity="center"
-        android:text="Thêm cập nhật vào bảng"
+        android:text="Add the update in the table"
         android:textColor="#5CA7B1"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -34,8 +34,7 @@
         android:background="@drawable/login_text_design"
         android:ems="10"
         android:gravity="start|top"
-        android:hint="
-Viết cập nhật"
+        android:hint="Write update"
         android:inputType="textMultiLine"
         android:paddingLeft="10dp"
         android:paddingTop="10dp"

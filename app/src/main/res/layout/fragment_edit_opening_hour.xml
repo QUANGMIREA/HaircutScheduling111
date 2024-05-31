@@ -15,7 +15,7 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:gravity="center"
-        android:text="Sửa thời gian hoạt động"
+        android:text="Change time work:"
         android:textColor="#5CA7B1"
         android:textSize="24sp"
         android:textStyle="bold" />
@@ -30,7 +30,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Chọn ngày:" />
+            android:text="Pick day:" />
 
         <Spinner
             android:id="@+id/dayChooseSpinner"
@@ -52,7 +52,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="giờ bắt đầu:" />
+            android:text="Time start:" />
 
         <EditText
             android:id="@+id/editTextTimeStart"
@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:text="Giờ kết thúc:" />
+            android:text="Time end:" />
 
         <EditText
             android:id="@+id/editTextTimeEnd"
@@ -98,7 +98,7 @@
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:gravity="center|left"
-            android:text="Định ngày nghỉ" />
+            android:text="Pick the day off" />
     </LinearLayout>
 
     <Button
@@ -108,7 +108,6 @@
         android:layout_gravity="center"
         android:layout_margin="20dp"
         android:gravity="center"
-        android:text="
-Đặt giờ trong ngày" />
+        android:text="Pick hour in day" />
 
 </LinearLayout>

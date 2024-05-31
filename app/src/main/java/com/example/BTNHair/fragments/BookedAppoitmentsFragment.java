@@ -124,7 +124,7 @@ public class BookedAppoitmentsFragment extends Fragment {
 
                     if(bookedAppointmentData.isEmpty())
                         Toast.makeText(mainActivity,"\n" +
-                                "Không có cuộc hẹn đã đặt trước",Toast.LENGTH_LONG).show();
+                                "No have booked yet",Toast.LENGTH_LONG).show();
                     adapter = new BookedCustomAdapter(bookedAppointmentData, mainActivity);
                     recyclerView.setAdapter(adapter);
                 }

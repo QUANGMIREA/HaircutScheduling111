@@ -83,7 +83,7 @@ public class AvailabilityCustomAdapter extends RecyclerView.Adapter<Availability
                 DatabaseReference myRef = database.getReference("appointments").child("appointmentsList");
                 myRef.child(hairStyleDataModel.getDate()).child(hairStyleDataModel.getHour()).setValue(hairStyleDataModel);
                 Toast.makeText(mainActivity,"\n" +
-                        "Đã đặt lịch hẹn thành công",Toast.LENGTH_LONG).show();
+                        "Booked successfully",Toast.LENGTH_LONG).show();
                 mainActivity.setMainFragment();
             }
         });

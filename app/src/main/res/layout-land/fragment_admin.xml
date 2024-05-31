@@ -87,7 +87,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_weight="1"
                         android:background="@drawable/buttoms_design"
-                        android:text="Sửa ngày nghỉ"
+                        android:text="Change day off"
                         android:textSize="18sp"
                         app:backgroundTint="#5CA7B1" />
 
@@ -102,7 +102,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_weight="1"
                         android:background="@drawable/buttoms_design"
-                        android:text="Sửa giờ mở cửa"
+                        android:text="Change hour open"
                         android:textSize="18sp"
                         app:backgroundTint="#5CA7B1" />
 
@@ -129,7 +129,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_weight="1"
                         android:background="@drawable/buttoms_design"
-                        android:text="ửa chi tiết liên hệ"
+                        android:text="Change contact"
                         android:textSize="18sp"
                         app:backgroundTint="#5CA7B1" />
 
@@ -144,7 +144,7 @@
                         android:layout_marginBottom="5dp"
                         android:layout_weight="1"
                         android:background="@drawable/buttoms_design"
-                        android:text="Cập nhật"
+                        android:text="Update"
                         android:textSize="18sp"
                         app:backgroundTint="#5CA7B1" />
 
@@ -159,7 +159,7 @@
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
                 android:background="@drawable/buttoms_design"
-                android:text="Lịch hẹn hôm nay"
+                android:text="Schelude today"
                 android:textSize="18sp"
                 app:backgroundTint="#5CA7B1" />
 

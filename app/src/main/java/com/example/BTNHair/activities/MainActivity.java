@@ -100,17 +100,17 @@ public class MainActivity extends AppCompatActivity {
                             setMainFragment();
                             // Sign in success, update UI with the signed-in user's information
                             Toast.makeText(MainActivity.this, "\n" +
-                                    "Đăng nhập thành công", Toast.LENGTH_LONG).show();
+                                    "login success", Toast.LENGTH_LONG).show();
                         } else {
                             if (userName.equals("admin") && password.equals("admin")) {
                                 setFragment(new AdminFragment());
                                 Toast.makeText(MainActivity.this, "\n" +
-                                        "Kết nối với tư cách quản trị viên", Toast.LENGTH_LONG).show();
+                                        "Connect as admin", Toast.LENGTH_LONG).show();
                             } else {
                                 // If sign in fails, display a message to the user.
                                 setLoginFragment();
                                 Toast.makeText(MainActivity.this, "\n" +
-                                        "Kết nối thất bại", Toast.LENGTH_LONG).show();
+                                        "connect fail", Toast.LENGTH_LONG).show();
                             }
                         }
                     }
@@ -179,13 +179,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void initDaysHours(DatabaseReference myRefChild, HashMap<String, Day> hashMap)
     {
-        Day sunday = new Day("Chủ nhật","9:00", "17:00",false);
-        Day monday = new Day("Thứ hai","9:00", "17:00",false);
-        Day tuesday = new Day("Thứ ba","9:00", "17:00",false);
-        Day wednesday = new Day("Thứ tư","9:00", "17:00",false);
-        Day thursday = new Day("Thứ năm","9:00", "17:00",false);
-        Day friday = new Day("Thứ sáu","00:00", "00:00",true);
-        Day saturday = new Day("Thứ bảy","00:00", "00:00",true);
+        Day sunday = new Day("Sunday","9:00", "17:00",false);
+        Day monday = new Day("MonDay","9:00", "17:00",false);
+        Day tuesday = new Day("Tuesday","9:00", "17:00",false);
+        Day wednesday = new Day("Wednesday","9:00", "17:00",false);
+        Day thursday = new Day("Thursday","9:00", "17:00",false);
+        Day friday = new Day("Friday","00:00", "00:00",true);
+        Day saturday = new Day("Saturday","00:00", "00:00",true);
 
         if(!hashMap.containsKey("1")) myRefChild.child("1").setValue(sunday);
         if(!hashMap.containsKey("2")) myRefChild.child("2").setValue(monday);

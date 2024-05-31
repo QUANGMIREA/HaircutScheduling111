@@ -54,8 +54,8 @@ public class ContactUsFragment extends Fragment {
 
         mainActivity = (MainActivity) getActivity();
         SharedPreferences contact_prefs = mainActivity.getSharedPreferences(mainActivity.SHARED_PREFS_CONTACT, MODE_PRIVATE);
-        String phone = contact_prefs.getString(mainActivity.PHONE, "0526485746");
-        String email = contact_prefs.getString(mainActivity.EMAIL, "Hairnganpham@gmail.com");
+        String phone = contact_prefs.getString(mainActivity.PHONE, "0123456789");
+        String email = contact_prefs.getString(mainActivity.EMAIL, "lehongquang@gmail.com");
         String address = contact_prefs.getString(mainActivity.ADDRESS, "HCM");
 
         TextView contactPhone = view.findViewById(R.id.editTextContactPhone);

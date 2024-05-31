@@ -30,7 +30,7 @@
                 android:layout_marginRight="5dp"
                 android:layout_weight="0.5"
                 android:gravity="center"
-                android:text="Ngày"
+                android:text="Day"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
@@ -43,7 +43,7 @@
                 android:layout_weight="0.6"
                 android:gravity="center"
                 android:paddingRight="10dp"
-                android:text="Giờ"
+                android:text="Hour"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
@@ -55,7 +55,7 @@
                 android:layout_weight="0.5"
                 android:background="#D4E1E0"
                 android:gravity="center"
-                android:text="Kiểu"
+                android:text="Type"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
         </LinearLayout>

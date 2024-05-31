@@ -101,17 +101,17 @@ public class EditOpeningHour extends Fragment {
 
                 if (!dayIsSelected)
                 {
-                    Toast.makeText(mainActivity, "Vui lòng chọn ngày!", Toast.LENGTH_LONG).show();
+                    Toast.makeText(mainActivity, "Please select a date!", Toast.LENGTH_LONG).show();
                 }
                 else if (startHour.isEmpty())
                 {
                     Toast.makeText(mainActivity,
-                            "Vui lòng chọn giờ bắt đầu!", Toast.LENGTH_LONG).show();
+                            "Please select a start time!", Toast.LENGTH_LONG).show();
                 }
                 else if (endHour.isEmpty())
                 {
                     Toast.makeText(mainActivity, "\n" +
-                            "Vui lòng chọn giờ kết thúc!", Toast.LENGTH_LONG).show();
+                            "Please select an end time!", Toast.LENGTH_LONG).show();
                 }
                 else {
                     Day day = new Day(chosenDay,startHour,endHour,dayOff);
@@ -130,7 +130,7 @@ public class EditOpeningHour extends Fragment {
                 }
                 else {
                     myRef.child("OperationTime").child(convertDayStrToNum(day.getName())).setValue(day);
-                    Toast.makeText(mainActivity, "Đã cập nhật thành công thời gian hoạt động vào", Toast.LENGTH_LONG).show();
+                    Toast.makeText(mainActivity, "Uptime has been successfully updated", Toast.LENGTH_LONG).show();
 
                 }
             }

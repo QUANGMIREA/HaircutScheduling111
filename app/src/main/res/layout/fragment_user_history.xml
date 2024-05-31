@@ -23,7 +23,7 @@
             android:layout_margin="10dp"
             android:gravity="center"
             android:padding="10dp"
-            android:text="Đã đặt trước"
+            android:text="Already booked"
             android:textColor="#5CA7B1"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -43,7 +43,7 @@
                 android:layout_weight="0.6"
                 android:gravity="center"
                 android:paddingRight="10dp"
-                android:text="ngày"
+                android:text="Day"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
@@ -56,7 +56,7 @@
                 android:layout_weight="0.6"
                 android:gravity="center"
                 android:paddingRight="10dp"
-                android:text="giờ"
+                android:text="Hour"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
             <TextView
@@ -69,7 +69,7 @@
                 android:background="#D4E1E0"
                 android:gravity="center"
                 android:paddingRight="10dp"
-                android:text="Kiểu"
+                android:text="Type"
                 android:textAppearance="?android:attr/textAppearanceLarge" />
 
         </LinearLayout>

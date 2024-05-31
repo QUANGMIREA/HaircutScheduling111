@@ -88,7 +88,7 @@ public class BookedCustomAdapter extends RecyclerView.Adapter<BookedCustomAdapte
                 DatabaseReference myRef = database.getReference("appointments").child("appointmentsList").child(date).child(hour);
                 myRef.removeValue();
                 mainActivity.setMainFragment();
-                Toast.makeText(mainActivity, "Cuộc hẹn đã bị hủy",Toast.LENGTH_SHORT).show();
+                Toast.makeText(mainActivity, "Booking cancle",Toast.LENGTH_SHORT).show();
             }
         });
     }

@@ -63,7 +63,7 @@ public class EditAdminContactDetailsFragment extends Fragment {
 
                 if (phone.isEmpty())
                 {
-                    Toast.makeText(mainActivity, "Vui lòng nhập số điện thoại mới.",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mainActivity, "Please enter new phone number.",Toast.LENGTH_SHORT).show();
                 }
                 else {
                     SharedPreferences.Editor editor = mainActivity.getSharedPreferences(mainActivity.SHARED_PREFS_CONTACT, MODE_PRIVATE).edit();
@@ -71,7 +71,7 @@ public class EditAdminContactDetailsFragment extends Fragment {
                     editor.apply();
 
                     Toast.makeText(mainActivity, "\n" +
-                            "Đã cập nhật điện thoại!", Toast.LENGTH_SHORT).show();
+                            "Phone updated!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -88,14 +88,14 @@ public class EditAdminContactDetailsFragment extends Fragment {
 
                 if (email.isEmpty())
                 {
-                    Toast.makeText(mainActivity, "Vui lòng nhập địa chỉ email mới.",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mainActivity, "Please enter a new email address.",Toast.LENGTH_SHORT).show();
                 }
                 else {
                     SharedPreferences.Editor editor = mainActivity.getSharedPreferences(mainActivity.SHARED_PREFS_CONTACT, MODE_PRIVATE).edit();
                     editor.putString(mainActivity.EMAIL, email);
                     editor.apply();
 
-                    Toast.makeText(mainActivity, "Đã cập nhật email!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mainActivity, "Email updated!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -113,14 +113,14 @@ public class EditAdminContactDetailsFragment extends Fragment {
                 if (address.isEmpty())
                 {
                     Toast.makeText(mainActivity, "\n" +
-                            "Vui lòng nhập địa chỉ mới.",Toast.LENGTH_SHORT).show();
+                            "Please enter a new address.",Toast.LENGTH_SHORT).show();
                 }
                 else {
                     SharedPreferences.Editor editor = mainActivity.getSharedPreferences(mainActivity.SHARED_PREFS_CONTACT, MODE_PRIVATE).edit();
                     editor.putString(mainActivity.ADDRESS, address);
                     editor.apply();
 
-                    Toast.makeText(mainActivity, "Đã cập nhật địa chỉ!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mainActivity, "Address updated!", Toast.LENGTH_SHORT).show();
                 }
             }
         });

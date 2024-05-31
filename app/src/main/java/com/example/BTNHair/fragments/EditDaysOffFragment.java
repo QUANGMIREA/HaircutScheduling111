@@ -81,7 +81,7 @@ public class EditDaysOffFragment extends Fragment {
                 if (currentDate == null)
                 {
                     Toast.makeText(mainActivity, "\n" +
-                            "Vui lòng chọn Ngày", Toast.LENGTH_SHORT).show();
+                            "Please choose day", Toast.LENGTH_SHORT).show();
                 }
                 else
                 {
@@ -97,7 +97,7 @@ public class EditDaysOffFragment extends Fragment {
                 mainActivity = (MainActivity) getActivity();
                 if (currentDate == null)
                 {
-                    Toast.makeText(mainActivity, "Vui lòng chọn Ngày", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(mainActivity, "PLease choose day", Toast.LENGTH_SHORT).show();
                 }
                 else
                 {

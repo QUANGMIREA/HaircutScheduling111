@@ -81,7 +81,7 @@ public class SigninFragment extends Fragment {
                 if (name.isEmpty() || email.isEmpty() || password.isEmpty() || phone.isEmpty())
                 {
                     Toast.makeText(mainActivity, "\n" +
-                            "Vui lòng điền vào tất cả các thông tin cần thiết", Toast.LENGTH_LONG).show();
+                            "Please fill in all required information", Toast.LENGTH_LONG).show();
                 }
                 else {
                     User user = new User(name, email, password, phone);
@@ -107,8 +107,8 @@ public class SigninFragment extends Fragment {
                         } else {
                             // If sign in fails, display a message to the user.
                             mainActivity.setFragment(new SigninFragment());
-                            Toast.makeText(mainActivity, "Đã xảy ra sự cố, Vui lòng thử lại.\nNote: \n" +
-                                    "Cần có email và mật khẩu hợp lệ với ít nhất 6 ký tự.", Toast.LENGTH_LONG).show();
+                            Toast.makeText(mainActivity, "Something went wrong, Please try again.\nNote: \n" +
+                                    "A valid email and password with at least 6 characters is required.", Toast.LENGTH_LONG).show();
                         }
                     }
                 });

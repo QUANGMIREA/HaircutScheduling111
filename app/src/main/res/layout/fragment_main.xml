@@ -42,7 +42,7 @@
             android:layout_marginRight="10dp"
             android:layout_marginBottom="20dp"
             android:gravity="center"
-            android:text="Mời bạn chọn danh mục"
+            android:text="Please choose:"
             android:textColor="#5CA7B1"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -76,8 +76,7 @@
                     android:layout_weight="1"
 
                     android:background="@drawable/buttoms_design"
-                    android:text="
-Đặt lịch"
+                    android:text="Book"
                     android:textSize="20sp"
                     app:backgroundTint="#5CA7B1" />
 
@@ -93,8 +92,7 @@
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/buttoms_design"
-                    android:text="
-Xem lịch đã đặt"
+                    android:text="View booked schedule"
                     android:textSize="20sp"
                     app:backgroundTint="#5CA7B1" />
 
@@ -123,8 +121,7 @@ Xem lịch đã đặt"
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/buttoms_design"
-                    android:text="
-Bảng cập nhật"
+                    android:text="Table Update"
                     android:textSize="20sp"
                     app:backgroundTint="#5CA7B1" />
 
@@ -140,7 +137,7 @@ Bảng cập nhật"
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/buttoms_design"
-                    android:text="Lịch sử đặt lịch"
+                    android:text="History booking"
                     android:textSize="20sp"
                     app:backgroundTint="#5CA7B1" />
 
@@ -168,7 +165,7 @@ Bảng cập nhật"
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/buttoms_design"
-                    android:text="Liên hệ chúng tôi"
+                    android:text="Contact us"
                     android:textSize="20sp"
                     app:backgroundTint="#5CA7B1" />
 
@@ -184,7 +181,7 @@ Bảng cập nhật"
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
                     android:background="@drawable/buttoms_design"
-                    android:text="Đăng xuất"
+                    android:text="Log out"
                     android:textSize="20sp"
                     app:backgroundTint="#5CA7B1" />
 

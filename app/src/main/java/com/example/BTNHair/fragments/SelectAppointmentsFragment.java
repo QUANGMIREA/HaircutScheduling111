@@ -120,7 +120,7 @@ public class SelectAppointmentsFragment extends Fragment {
 
                 if(selectedDate.before(current)) {
                     Toast.makeText(mainActivity, "\n" +
-                            "Vui lòng chọn ngày trong tương lai", Toast.LENGTH_LONG).show();
+                            "Please select a future date", Toast.LENGTH_LONG).show();
                 }
                 else {
                     hairStyleAppointment.setDate(date);
@@ -190,7 +190,7 @@ public class SelectAppointmentsFragment extends Fragment {
     {
         if (settings.DayOffList.containsValue(date)) {
             mainActivity = (MainActivity) getActivity();
-            Toast.makeText(mainActivity, "Không có cuộc hẹn nào", Toast.LENGTH_LONG).show();
+            Toast.makeText(mainActivity, "There are no appointments available", Toast.LENGTH_LONG).show();
             return new ArrayList<>();
         } else {
             return getAvailableHours(new AppointmentsData(), day);

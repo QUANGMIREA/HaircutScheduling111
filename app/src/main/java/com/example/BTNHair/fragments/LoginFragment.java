@@ -76,7 +76,7 @@ public class LoginFragment extends Fragment {
 
                 if(userName.isEmpty() || password.isEmpty()) {
                     Toast.makeText(mainActivity, "\n" +
-                            "Vui lòng nhập tên tài khoản và mật khẩu", Toast.LENGTH_LONG).show();
+                            "Please enter your account name and password", Toast.LENGTH_LONG).show();
                 }
                 else {
                     mainActivity.Login(userName,password);
